@@ -1,0 +1,50 @@
+export const ToastCss = `
+
+.toast {
+    flex-basis: 350px;
+    max-width: 350px;
+    font-size: .875rem;
+    background-color: rgba(255, 255, 255, .85);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: .25rem;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+    opacity: 0;
+    flex-preferred-size: 350px;
+}
+
+.toast:not(:last-child) {
+    margin-bottom: .75rem;
+}
+
+.toast.showing {
+    opacity: 1;
+}
+
+.toast.show {
+    display: block;
+    opacity: 1;
+}
+
+.toast.hide {
+    display: none;
+}
+
+.toast-header {
+    display: flexbox;
+    display: flex;
+    flex-align: center;
+    align-items: center;
+    padding: .25rem .75rem;
+    color: #6c757d;
+    background-color: rgba(255, 255, 255, .85);
+    background-clip: padding-box;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.toast-body {
+    padding: .75rem;
+}
+`;

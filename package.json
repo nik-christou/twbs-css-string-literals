@@ -1,0 +1,14 @@
+{
+  "name": "twbs-css-string-literals",
+  "version": "1.0.0",
+  "description": "Provides bootstrap v4.3.5 css as string literals",
+  "main": "index.js",
+  "module": "index.js",
+  "author": "Nikolas Christou",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+  }
+}
