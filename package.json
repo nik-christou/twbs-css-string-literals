@@ -1,11 +1,17 @@
 {
   "name": "twbs-css-string-literals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides bootstrap v4.3.5 css as string literals",
   "main": "index.js",
   "module": "index.js",
+  "type": "module",
   "author": "Nikolas Christou",
   "license": "MIT",
+  "homepage": "https://github.com/nik-christou/twbs-css-string-literals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nik-christou/twbs-css-string-literals"
+  },
   "publishConfig": {
     "access": "public"
   },
