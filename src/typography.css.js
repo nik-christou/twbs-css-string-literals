@@ -130,6 +130,6 @@ mark,
 }
 
 .blockquote-footer::before {
-    content: "\2014\00A0";
+    content: "\\2014 \\00A0";
 }
 `;
